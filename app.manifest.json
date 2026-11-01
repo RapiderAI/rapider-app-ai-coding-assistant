@@ -1,0 +1,2907 @@
+{
+  "name": "Rapider AI Coding Assistant",
+  "key": "ai-coding-assistant",
+  "domainKey": "AIA",
+  "appSuite": {
+    "key": "AIA",
+    "title": "Rapider AI & Automation Suite"
+  },
+  "type": "App",
+  "description": "1.2 Target Personas & Progressive Disclosure - SME Fast-Path Defaults (Startup & Lean Product Teams): Connect a Git repository in two minutes, pick a built-in framework rule pack, open an interactive coding studio session or click \"Assign to Coding Assistant\" on an ApmIssue, inspect a clean unified diff with automated secret/SAST checks, and apply or publish a draft PR with default \\$40.00/seat monthly token caps. - Enterprise Progressive Disclosure (VP Engineering, Staff Architects, AppSec & Pl",
+  "isPublic": true,
+  "tags": [
+    "aia",
+    "ai-coding-assistant",
+    "top-200"
+  ],
+  "iconUrl": "fas fa-robot",
+  "icon": "fas fa-robot",
+  "route": "ai-coding-assistant",
+  "rating": 5,
+  "reviewCount": 0,
+  "status": "app-metadata-completed",
+  "coverPage": "<!-- Rapider Official App SOW & Specification | App #113: AI Coding Assistant (ai-coding-assistant) | Domain: AIA -->\n\n# #113 AI Coding Assistant (`ai-coding-assistant`) — Scope of Work (SOW)\n\n- **App Number & Name:** `#113` — AI Coding Assistant\n- **Proposed App Key:** `ai-coding-assistant`\n- **Suite / Domain Key & Model Prefix:** `AIA` (`Aia*`)\n- **Function Category:** 12. AI & Intelligent Automation\n- **Representative Product (`P1`):** GitHub Copilot (Enterprise & Coding Agent)\n- **Combined Feature Catalog:** [../combined-features/113-ai-coding-assistant-features.md](../combined-features/113-ai-coding-assistant-features.md)\n- **Target Release Posture:** Context-Grounded Developer Coding Studio, Autonomous Issue-to-PR Coding Tasks, Agentic PR Code Review & Engineering AI Governance Microapplication\n\n---\n\n## 1. Executive Outcome & Target Audience\n\n### 1.1 Business Problem Solved\nSoftware engineering teams face mounting backlog pressure, fragmented context across issue trackers and multi-repository codebases, slow pull request review bottlenecks, and compliance anxiety over unvetted AI-generated code, leaked secrets, and runaway LLM token spend. **Rapider AI Coding Assistant (`ai-coding-assistant`)** delivers a governed, context-grounded AI software engineering workspace that connects canonical `ApmIssue` specifications, indexed Git repositories, scoped architectural rule packs, interactive multi-file patch proposals, autonomous cloud sandbox coding tasks, and automated first-pass PR code reviews under unified security and cost controls.\n\n### 1.2 Target Personas & Progressive Disclosure\n- **SME Fast-Path Defaults (Startup & Lean Product Teams):** Connect a Git repository in two minutes, pick a built-in framework rule pack, open an interactive coding studio session or click **\"Assign to Coding Assistant\"** on an `ApmIssue`, inspect a clean unified diff with automated secret/SAST checks, and apply or publish a draft PR with default `\\$40.00`/seat monthly token caps.\n- **Enterprise Progressive Disclosure (VP Engineering, Staff Architects, AppSec & Platform Teams):** Enforce Zero-Data-Retention (`ZDR`) model allowlists, glob-scoped architectural `AiaCodingRulePack` hierarchies, public-code IP indemnity & copyleft license filters, parallel sub-task sandbox execution, protected-path human sign-off gates (`auth/**`, `migrations/**`, `billing/**`) via Rapider Home `WorkItem`s, and sprint-level velocity & code-persistence ROI analytics.\n\n### 1.3 Measurable Business Outcomes\n- **>= 35% Faster PR Review Turnaround:** Automated first-pass agentic code reviews (`AiaPrReviewRun`) surface cross-file logic defects, missing RBAC guards, and security autofixes within 90 seconds of PR creation.\n- **Zero Plaintext Secret or Unapproved Path Merges:** Deterministic secret/SAST scanning and mandatory human `WorkItem` gates prevent autonomous commits to protected branches or sensitive security paths.\n- **100% Attributable AI Compute Spend:** Append-only `Decimal128` token and sandbox minute metering (`AiaUsageLedgerEntry`) attributes every cent across repositories, `ApmProject`s, and model tiers.\n\n### 1.4 Benchmark Summary (`P1`–`P6`)\nCombines the Issue-to-PR coding agent, agentic PR code review, and IP governance of **`P1` GitHub Copilot Enterprise**, fast `@codebase` semantic indexing, scoped rules, and multi-file patch hunks of **`P2` Cursor**, real-time AST/flow context and strict ZDR controls of **`P3` Windsurf (Codeium)**, backlog-to-PR sandbox execution and cycle-time analytics of **`P4` Atlassian Rovo Dev**, schema-aware parallel worktree task orchestration of **`P5` Salesforce Agentforce for Developers**, and clean-core enterprise scaffolding and legacy modernization guides of **`P6` SAP Joule for Developers**.\n\n---\n\n## 2. In-Scope, Out-of-Scope & Suite Ownership Boundaries\n\n### 2.1 In-Scope Capabilities\n1. Repository and branch semantic context bindings (`AiaCodeRepoBinding`) with exclude globs, commit SHA watermarks, and Rapider canonical schema/component grounding.\n2. Versioned architectural instructions, path-scoped coding standards, and reusable slash prompt recipes (`AiaCodingRulePack`).\n3. Interactive multi-turn coding studio (`AiaCodingSession` backed by `projectChannelMessage` threads) with `@file`/`@symbol`/`@issue` citations and hunk-level patch proposals (`AiaCodePatchProposal`).\n4. Autonomous Issue-to-PR coding tasks (`AiaCodingTask`) running build/lint/test loops in isolated ephemeral sandboxes with Kanban lifecycle tracking (`<rapider-kanban>`).\n5. Automated first-pass agentic Pull Request code reviews (`AiaPrReviewRun`, `AiaReviewFinding`) with severity-ranked inline comments, security/secret checks, and one-click unified diff autofixes.\n6. Workspace model allowlists, ZDR & copyleft filters (`AiaCodingPolicy`), and append-only `Decimal128` token/sandbox spend ledgers (`AiaUsageLedgerEntry`).\n\n### 2.2 Out-of-Scope Capabilities (Delegated to Adjacent Rapider Apps)\n- **Primary Git repository hosting, branch p",
+  "scopeOfWork": "<!-- Rapider Official App SOW & Specification | App #113: AI Coding Assistant (ai-coding-assistant) | Domain: AIA -->\n\n# #113 AI Coding Assistant (`ai-coding-assistant`) — Scope of Work (SOW)\n\n- **App Number & Name:** `#113` — AI Coding Assistant\n- **Proposed App Key:** `ai-coding-assistant`\n- **Suite / Domain Key & Model Prefix:** `AIA` (`Aia*`)\n- **Function Category:** 12. AI & Intelligent Automation\n- **Representative Product (`P1`):** GitHub Copilot (Enterprise & Coding Agent)\n- **Combined Feature Catalog:** [../combined-features/113-ai-coding-assistant-features.md](../combined-features/113-ai-coding-assistant-features.md)\n- **Target Release Posture:** Context-Grounded Developer Coding Studio, Autonomous Issue-to-PR Coding Tasks, Agentic PR Code Review & Engineering AI Governance Microapplication\n\n---\n\n## 1. Executive Outcome & Target Audience\n\n### 1.1 Business Problem Solved\nSoftware engineering teams face mounting backlog pressure, fragmented context across issue trackers and multi-repository codebases, slow pull request review bottlenecks, and compliance anxiety over unvetted AI-generated code, leaked secrets, and runaway LLM token spend. **Rapider AI Coding Assistant (`ai-coding-assistant`)** delivers a governed, context-grounded AI software engineering workspace that connects canonical `ApmIssue` specifications, indexed Git repositories, scoped architectural rule packs, interactive multi-file patch proposals, autonomous cloud sandbox coding tasks, and automated first-pass PR code reviews under unified security and cost controls.\n\n### 1.2 Target Personas & Progressive Disclosure\n- **SME Fast-Path Defaults (Startup & Lean Product Teams):** Connect a Git repository in two minutes, pick a built-in framework rule pack, open an interactive coding studio session or click **\"Assign to Coding Assistant\"** on an `ApmIssue`, inspect a clean unified diff with automated secret/SAST checks, and apply or publish a draft PR with default `\\$40.00`/seat monthly token caps.\n- **Enterprise Progressive Disclosure (VP Engineering, Staff Architects, AppSec & Platform Teams):** Enforce Zero-Data-Retention (`ZDR`) model allowlists, glob-scoped architectural `AiaCodingRulePack` hierarchies, public-code IP indemnity & copyleft license filters, parallel sub-task sandbox execution, protected-path human sign-off gates (`auth/**`, `migrations/**`, `billing/**`) via Rapider Home `WorkItem`s, and sprint-level velocity & code-persistence ROI analytics.\n\n### 1.3 Measurable Business Outcomes\n- **>= 35% Faster PR Review Turnaround:** Automated first-pass agentic code reviews (`AiaPrReviewRun`) surface cross-file logic defects, missing RBAC guards, and security autofixes within 90 seconds of PR creation.\n- **Zero Plaintext Secret or Unapproved Path Merges:** Deterministic secret/SAST scanning and mandatory human `WorkItem` gates prevent autonomous commits to protected branches or sensitive security paths.\n- **100% Attributable AI Compute Spend:** Append-only `Decimal128` token and sandbox minute metering (`AiaUsageLedgerEntry`) attributes every cent across repositories, `ApmProject`s, and model tiers.\n\n### 1.4 Benchmark Summary (`P1`–`P6`)\nCombines the Issue-to-PR coding agent, agentic PR code review, and IP governance of **`P1` GitHub Copilot Enterprise**, fast `@codebase` semantic indexing, scoped rules, and multi-file patch hunks of **`P2` Cursor**, real-time AST/flow context and strict ZDR controls of **`P3` Windsurf (Codeium)**, backlog-to-PR sandbox execution and cycle-time analytics of **`P4` Atlassian Rovo Dev**, schema-aware parallel worktree task orchestration of **`P5` Salesforce Agentforce for Developers**, and clean-core enterprise scaffolding and legacy modernization guides of **`P6` SAP Joule for Developers**.\n\n---\n\n## 2. In-Scope, Out-of-Scope & Suite Ownership Boundaries\n\n### 2.1 In-Scope Capabilities\n1. Repository and branch semantic context bindings (`AiaCodeRepoBinding`) with exclude globs, commit SHA watermarks, and Rapider canonical schema/component grounding.\n2. Versioned architectural instructions, path-scoped coding standards, and reusable slash prompt recipes (`AiaCodingRulePack`).\n3. Interactive multi-turn coding studio (`AiaCodingSession` backed by `projectChannelMessage` threads) with `@file`/`@symbol`/`@issue` citations and hunk-level patch proposals (`AiaCodePatchProposal`).\n4. Autonomous Issue-to-PR coding tasks (`AiaCodingTask`) running build/lint/test loops in isolated ephemeral sandboxes with Kanban lifecycle tracking (`<rapider-kanban>`).\n5. Automated first-pass agentic Pull Request code reviews (`AiaPrReviewRun`, `AiaReviewFinding`) with severity-ranked inline comments, security/secret checks, and one-click unified diff autofixes.\n6. Workspace model allowlists, ZDR & copyleft filters (`AiaCodingPolicy`), and append-only `Decimal128` token/sandbox spend ledgers (`AiaUsageLedgerEntry`).\n\n### 2.2 Out-of-Scope Capabilities (Delegated to Adjacent Rapider Apps)\n- **Primary Git repository hosting, branch protection storage, and merge engine:** Owned by `#104 Source Code Hosting & Git / PRs` (`git-repos`) or connected external Git providers (GitHub, GitLab, Bitbucket).\n- **CI/CD pipeline orchestration, artifact registries, and production release deployment:** Owned by `#105 CI/CD Pipelines & Release Automation`.\n- **Sprint planning, backlog prioritization, story points, and timesheets:** Owned by `APM` suite (`apm`, `planning`, `time`).\n- **General-purpose multi-agent business workflow builders and non-code orchestration:** Owned by `#114 AI Agent Development & Orchestration` (`ai-agent-development-and-orchestration`).\n- **Custom model fine-tuning and ML experiment tracking:** Owned by `#115 AI Model Training & Experiment Tracking` (`ai-model-training-and-experiment-tracking`).\n- **Standalone approval inbox UI:** Delegated strictly to Rapider Platform Home `WorkItem`s.\n\n### 2.3 Cross-Suite Ownership & Integration Contract\n\n| Domain / App | Owns (Canonical Models) | Integration Contract with `ai-coding-assistant` |\n| :--- | :--- | :--- |\n| **`ai-coding-assistant` (`#113` — This App)** | `AiaCodeRepoBinding`, `AiaCodingRulePack`, `AiaCodingSession`, `AiaCodingTask`, `AiaCodePatchProposal`, `AiaPrReviewRun`, `AiaReviewFinding`, `AiaCodingPolicy`, `AiaUsageLedgerEntry` | Indexes approved repo refs, hosts coding sessions & autonomous sandbox runs, generates patch proposals & PR reviews, and meters token/sandbox spend. |\n| **`apm` (`APM` Suite)** | `ApmProject`, `ApmEpic`, `ApmSprint`, `ApmIssue` | `AiaCodingTask` and `AiaCodingSession` reference `apmProjectId` and `apmIssueId` for requirements grounding and emit task/PR status events back to `ApmIssue` timelines. |\n| **`#104` Git / PRs & `#105` CI/CD** | Git repositories, Pull Requests, Pipeline Runs | Webhook/event integration triggers `AiaPrReviewRun` on PR open/synchronize and allows `AiaCodingTask` to propose draft PRs or inspect failed CI logs. |\n| **`employees` (`HR` Suite) & Platform Identity** | `HrEmployee`, Workspace Users & RBAC Roles | Resolves developer seat entitlements, team hierarchy for aggregate ROI analytics, and RBAC permission boundaries. |\n| **Rapider Platform Services** | Home `WorkItem`, `projectChannelMessage`, Files/Drive, Secret Vault | Routes protected-path & budget-cap approvals to Home `WorkItem`s, stores session/review chat on `projectChannelMessage` threads, and resolves Git/LLM secrets at runtime without persistence in app DB. |\n\n---\n\n## 3. Primary Web Pages & Sidebar Navigation Architecture (12 Pages)\n\nAll visible sidebar groups strictly satisfy the **Minimum 3 Items per Section Rule** (`Coding Workspace`: 3 items, `Agentic Delivery`: 3 items, `Governance & Insights`: 3 items = 9 menu-visible pages + 3 hidden detail/drawer routes = 12 total pages).\n\n| # | Route | Page Title | Sidebar Section | Menu Visible | Key Components & UX |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 1 | `dashboard` | Coding Assistant Overview | `Coding Workspace` | `true` (`order: 1`) | KPI cards (`countSWR`/`findSWR` for active tasks, patch acceptance %, PR review turnaround, monthly `Decimal128` spend vs. budget), active sandbox queue, and quick-launch bar. |\n| 2 | `coding-studio` | Interactive Coding Studio | `Coding Workspace` | `true` (`order: 2`) | Split-pane grounded chat (`projectChannelMessage` thread), `@file`/`@symbol`/`@issue` context picker, slash recipe launcher, model selector, and hunk-level diff viewer (`AiaCodePatchProposal`). |\n| 3 | `repositories` | Indexed Repositories | `Coding Workspace` | `true` (`order: 3`) | Searchable table of `AiaCodeRepoBinding` records with `#activeFilterTagsBar` + `Clear all`, index status badges, commit SHA watermark, clickable repo name -> detail, icon+text `Edit`, icon-only `Delete`. |\n| 4 | `coding-tasks` | Autonomous Coding Tasks | `Agentic Delivery` | `true` (`order: 4`) | Dual List + `<rapider-kanban>` board (`QUEUED`, `PLANNING`, `SANDBOX_RUNNING`, `AWAITING_REVIEW`, `PR_OPENED`, `COMPLETED`, `FAILED`) linked to `ApmIssue`s with `#activeFilterTagsBar`. |\n| 5 | `patch-proposals` | Patch Proposals & Diffs | `Agentic Delivery` | `true` (`order: 5`) | Filterable table of `AiaCodePatchProposal` changesets across sessions and tasks, security/license gate badges, test pass summary, and hunk acceptance counts. |\n| 6 | `pr-reviews` | Agentic PR Reviews | `Agentic Delivery` | `true` (`order: 6`) | Real-time table of `AiaPrReviewRun` evaluations with severity breakdown (`CRITICAL`/`HIGH`/`MEDIUM`/`NIT`), autofix readiness, and clickable PR identifier navigation. |\n| 7 | `rule-packs` | Coding Rules & Recipes | `Governance & Insights` | `true` (`order: 7`) | Catalog of versioned `AiaCodingRulePack` coding standards and slash prompt templates with path-glob scopes, acceptance signal scores, and drawer editor. |\n| 8 | `governance-policies` | Guardrails & Model Policies | `Governance & Insights` | `true` (`order: 8`) | Admin policy console (`AiaCodingPolicy`) configuring allowed models, ZDR toggle, protected path globs, copyleft filter, seat/monthly `Decimal128` caps, and emergency contact `<rapider-phone-input>`. |\n| 9 | `usage-analytics` | Usage Ledger & Velocity ROI | `Governance & Insights` | `true` (`order: 9`) | Team/repo/model spend breakdown (`AiaUsageLedgerEntry`), suggestion 14-day survival chart, PR cycle-time delta, and CSV audit export. |\n| 10 | `coding-task-detail` | Coding Task & Sandbox Detail | *(Hidden)* | `false` | Full execution trace for `AiaCodingTask`: pinned `ApmIssue` spec, approved plan, sandbox step/test logs, proposed multi-file diff, `WorkItem` gate status, and `Back to Tasks` state restoration. |\n| 11 | `pr-review-detail` | PR Review & Autofix Detail | *(Hidden)* | `false` | Architectural summary walkthrough, filterable `AiaReviewFinding` cards with inline diff previews, one-click **\"Apply Autofix\"** / **\"Hand Off to Coding Task\"**, and `projectChannelMessage` Q&A thread. |\n| 12 | `new-coding-task` | Dispatch Coding Task (Drawer) | *(Hidden Drawer)* | `false` | Sliding drawer to launch an `AiaCodingTask` from an `ApmIssue` or prompt, choose `AiaCodeRepoBinding` + target branch + `AiaCodingRulePack`, auto-closing via `closePageDrawer()` in `try/catch/finally`. |\n\n> **Rapider UI Standards Enforced Across All 12 Pages:**\n> - Initial loads use `findSWR` / `countSWR` with clean filters (no client-side `isDeleted` where clauses) and defensive local `items.filter(it => it && it.isDeleted !== true)`.\n> - Primary and destructive buttons strictly enforce `#ffffff !important` white text; zero `window.alert`, `window.confirm`, or `window.prompt` calls exist anywhere.\n> - Data tables contain **no standalone View button** in `Actions`; clicking the primary identifier navigates to detail, paired with icon+text `Edit` and icon-only `Delete`.\n\n---\n\n## 4. Canonical Data Models (`Aia*` — 9 Models)\n\nNo model contains `projectId` or `workspaceId` (enforced by platform multi-tenant host context). Sample seed UUIDs follow `00000000-0113-0000-0000-xxxxxxxxxxxx`.\n\n| Model Name | Key Fields & Types | Relationships & External Refs | Invariants & Lifecycle |\n| :--- | :--- | :--- | :--- |\n| **`AiaCodeRepoBinding`** | `id` (UUID), `repoName` (String), `providerType` (`GITHUB`\\|`GITLAB`\\|`BITBUCKET`\\|`RAPIDER_GIT`), `repoUrl` (String), `defaultBranch` (String), `excludedGlobs` (String[]), `indexStatus` (`PENDING`\\|`INDEXING`\\|`READY`\\|`ERROR`), `lastIndexedCommitSha` (String), `indexedSymbolCount` (Integer), `credentialSecretRef` (String), `version` (Integer) | `apmProjectId` -> `ApmProject.id`; `defaultRulePackId` -> `AiaCodingRulePack.id` | Never stores raw Git PATs/SSH keys (only vault `credentialSecretRef`). Secret/env globs (`**/.env*`, `**/*.pem`) are always force-excluded. |\n| **`AiaCodingRulePack`** | `id` (UUID), `code` (String), `name` (String), `packType` (`ARCHITECTURE_RULE`\\|`SLASH_RECIPE`\\|`PR_CHECKLIST`), `pathGlobs` (String[]), `languageTags` (String[]), `instructionMarkdown` (Text), `status` (`DRAFT`\\|`ACTIVE`\\|`DEPRECATED`), `ruleVersion` (Integer), `acceptanceRatePct` (`Decimal128`), `version` (Integer) | `ownerUserId` -> Platform User | Published `ruleVersion` snapshots referenced by `AiaCodingTask` or `AiaPrReviewRun` remain immutable for audit reproducibility. |\n| **`AiaCodingSession`** | `id` (UUID), `title` (String), `sessionMode` (`CHAT`\\|`COMPOSER_DIFF`\\|`LEGACY_EXPLAIN`), `selectedModelKey` (String), `pinnedRefsJson` (JSON), `status` (`ACTIVE`\\|`ARCHIVED`), `totalPromptTokens` (Integer), `totalCompletionTokens` (Integer), `estimatedCostAmount` (`Decimal128`), `currencyCode` (String), `version` (Integer) | `repoBindingId` -> `AiaCodeRepoBinding.id`; `apmIssueId` -> `ApmIssue.id` (optional); `channelThreadId` -> Platform `projectChannelMessage` | Grounded strictly in indexed repo files and caller RBAC scope; accumulates exact `Decimal128` session cost. |\n| **`AiaCodingTask`** | `id` (UUID), `taskNumber` (String), `title` (String), `specificationMarkdown` (Text), `sourceBranch` (String), `workingBranch` (String), `status` (`QUEUED`\\|`PLANNING`\\|`SANDBOX_RUNNING`\\|`AWAITING_REVIEW`\\|`PR_OPENED`\\|`COMPLETED`\\|`FAILED`\\|`CANCELLED`), `planMarkdown` (Text), `iterationCount` (Integer), `maxIterations` (Integer), `sandboxMinutesUsed` (`Decimal128`), `externalPrUrl` (String), `version` (Integer) | `repoBindingId` -> `AiaCodeRepoBinding.id`; `apmIssueId` -> `ApmIssue.id`; `policyId` -> `AiaCodingPolicy.id`; `approvalWorkItemId` -> Platform `WorkItem.id` | `iterationCount <= maxIterations` (default `5`). Cannot transition to `PR_OPENED` on protected paths until linked `WorkItem` is `APPROVED`. |\n| **`AiaCodePatchProposal`** | `id` (UUID), `summary` (String), `filesChangedCount` (Integer), `linesAdded` (Integer), `linesDeleted` (Integer), `unifiedDiffPayload` (Text), `hunkStatesJson` (JSON), `securityScanStatus` (`PASSED`\\|`WARN`\\|`BLOCKED_SECRET`\\|`BLOCKED_SAST`), `licenseScanStatus` (`CLEAN`\\|`FLAGGED_COPYLEFT`), `testRunStatus` (`NOT_RUN`\\|`PASSED`\\|`FAILED`), `resolutionStatus` (`PROPOSED`\\|`PARTIALLY_ACCEPTED`\\|`ACCEPTED`\\|`REJECTED`), `version` (Integer) | `sessionId` -> `AiaCodingSession.id` (nullable); `codingTaskId` -> `AiaCodingTask.id` (nullable); `repoBindingId` -> `AiaCodeRepoBinding.id` | `ACCEPTED` blocked whenever `securityScanStatus == BLOCKED_SECRET` or `BLOCKED_SAST`. Once `ACCEPTED` and committed, diff snapshot is immutable. |\n| **`AiaPrReviewRun`** | `id` (UUID), `externalPrId` (String), `prTitle` (String), `prAuthorHandle` (String), `headCommitSha` (String), `baseBranch` (String), `reviewStatus` (`RUNNING`\\|`COMPLETED`\\|`CHANGES_SUGGESTED`\\|`BLOCKED`\\|`FAILED`), `walkthroughMarkdown` (Text), `criticalCount` (Integer), `highCount` (Integer), `mediumCount` (Integer), `nitCount` (Integer), `durationMs` (Integer), `version` (Integer) | `repoBindingId` -> `AiaCodeRepoBinding.id`; `apmIssueId` -> `ApmIssue.id` (optional); `channelThreadId` -> `projectChannelMessage` | Idempotent per `(repoBindingId, externalPrId, headCommitSha)` so repeated webhooks never spam duplicate review comments. |\n| **`AiaReviewFinding`** | `id` (UUID), `category` (`SECURITY`\\|`BUG`\\|`PERFORMANCE`\\|`ARCHITECTURE`\\|`STYLE`\\|`LICENSE`), `severity` (`CRITICAL`\\|`HIGH`\\|`MEDIUM`\\|`NIT`), `filePath` (String), `startLine` (Integer), `endLine` (Integer), `findingMarkdown` (Text), `autofixDiff` (Text), `disposition` (`OPEN`\\|`AUTOFIX_APPLIED`\\|`HANDED_TO_AGENT`\\|`DISMISSED_FALSE_POSITIVE`\\|`RESOLVED`), `version` (Integer) | `prReviewRunId` -> `AiaPrReviewRun.id`; `rulePackId` -> `AiaCodingRulePack.id` (optional); `remediationTaskId` -> `AiaCodingTask.id` (optional) | Dismissal of a `CRITICAL` security finding requires justification note and AppSec/Lead role or approved `WorkItem`. |\n| **`AiaCodingPolicy`** | `id` (UUID), `policyName` (String), `allowedModelKeys` (String[]), `enforceZeroDataRetention` (Boolean), `blockPublicCodeMatches` (Boolean), `protectedPathGlobs` (String[]), `monthlySeatCapAmount` (`Decimal128`), `monthlyWorkspaceCapAmount` (`Decimal128`), `currencyCode` (String), `maxSandboxMinutesPerTask` (Integer), `securityEscalationPhone` (String, E.164), `isDefault` (Boolean), `version` (Integer) | `ownerUserId` -> Platform User | Exactly one active workspace default policy; `monthlySeatCapAmount` and `monthlyWorkspaceCapAmount` must be `>= 0` (`Decimal128`). |\n| **`AiaUsageLedgerEntry`** | `id` (UUID), `recordedAt` (DateTime), `operationType` (`CHAT_COMPLETION`\\|`PATCH_GEN`\\|`SANDBOX_TASK`\\|`PR_REVIEW`\\|`REPO_INDEX`), `modelKey` (String), `promptTokens` (Integer), `completionTokens` (Integer), `sandboxMinutes` (`Decimal128`), `unitRatePer1kTokens` (`Decimal128`), `estimatedCostAmount` (`Decimal128`), `currencyCode` (String), `correlationId` (String) | `actorUserId` -> Platform User; `repoBindingId` -> `AiaCodeRepoBinding.id`; `apmProjectId` -> `ApmProject.id`; `codingTaskId` -> `AiaCodingTask.id` (nullable) | **Strictly append-only & immutable** post-creation; adjustments require compensating entries rather than in-place edits. |\n\n---\n\n## 5. Core End-to-End User Journeys\n\n### Journey 1: SME Fast-Path — Interactive Multi-File Patch in Coding Studio\n1. A developer opens **Interactive Coding Studio** (`#/coding-studio`), selects an indexed repository (`AiaCodeRepoBinding`), and invokes `/unit-test` referencing `@file:order-validator.ts` and `@issue:APM-204`.\n2. The assistant retrieves pinned repo symbols and active `AiaCodingRulePack` conventions, posts a cited explanation on the `projectChannelMessage` thread, and creates an `AiaCodePatchProposal` adding edge-case unit tests across two files.\n3. Automatic secret and SAST checks mark `securityScanStatus = PASSED`. The developer accepts 3 of 4 diff hunks (`PARTIALLY_ACCEPTED` -> `ACCEPTED`), exports/applies the patch to a feature branch, and `AiaUsageLedgerEntry` records exact `Decimal128` token spend (`\\$0.0420`).\n\n### Journey 2: Backlog-to-PR Autonomous Coding Task (`APM` -> `AIA` -> Git PR)\n1. From **Autonomous Coding Tasks** (`#/coding-tasks`), a tech lead clicks **Dispatch Coding Task**, opens the `new-coding-task` drawer, picks `ApmIssue` *\"Add CSV export filter tags to Vendor directory\"*, selects target repo/branch, and submits.\n2. The drawer resets its button inside `finally`, invalidates SWR cache, broadcasts `RECORD_CREATED`, closes via `closePageDrawer()`, and adds the new card under `QUEUED` on `<rapider-kanban>`.\n3. OpenWhisk workflow `aiaRunSandboxCodingTask` spins up an ephemeral sandbox (`SANDBOX_RUNNING`), drafts `planMarkdown`, edits files, executes unit tests (self-healing a lint error on iteration 2 of 5), and generates a clean `AiaCodePatchProposal` (`AWAITING_REVIEW`).\n4. The lead clicks the task number `TASK-1048` on the board -> navigates to `#/coding-task-detail?id=...`, inspects test logs and diff hunks, clicks **Publish Draft PR**, and the status updates to `PR_OPENED` while posting a timeline link back to `ApmIssue`.\n\n### Journey 3: Protected-Path & Budget Exception via Rapider Home `WorkItem`\n1. An autonomous `AiaCodingTask` proposes edits touching `src/security/rbac-guard.ts`, which matches `protectedPathGlobs` (`**/security/**`) in `AiaCodingPolicy`.\n2. Guarded command `PublishTaskPullRequest` blocks automatic branch push and emits a high-priority **Rapider Home `WorkItem`** assigned to the AppSec/Engineering Lead role with direct deep-link context to `#/coding-task-detail`.\n3. Simultaneously, if a developer hits 100% of their `\\$50.00` `monthlySeatCapAmount`, requesting temporary burst quota emits a budget-override `WorkItem` to Engineering Management. Once approved in Home `WorkItem`s, `aia.workitem.resolved` unlocks the task/quota cleanly with an immutable audit entry.\n\n### Journey 4: Automated First-Pass Agentic PR Review & One-Click Autofix\n1. Opening or updating a Pull Request triggers `aiaTriggerAgenticPrReview` idempotently for `(repoBindingId, externalPrId, headCommitSha)`.\n2. `AiaPrReviewRun` analyzes the diff against cross-file callers and `AiaCodingRulePack` rules (including checking for Rapider rules like hardcoded secrets or missing `Decimal128` on money fields), creating 1 `HIGH` security `AiaReviewFinding` and 2 `MEDIUM` bug findings with unified `autofixDiff` patches.\n3. On `#/pr-reviews`, the author clicks `PR #418` -> opens `#/pr-review-detail?id=...`, clicks **Apply Autofix** on the `HIGH` finding (committing the verified patch and setting `disposition = AUTOFIX_APPLIED`), or clicks **Hand Off to Coding Task** to address multi-file review feedback autonomously, then clicks **Back to PR Reviews** restoring their active severity filter tags (`#activeFilterTagsBar`).\n\n### Journey 5: Governance Tuning & Velocity ROI Inspection\n1. An Engineering Director visits **Usage Ledger & Velocity ROI** (`#/usage-analytics`) filtered by `ApmProject` and date window.\n2. They review total `Decimal128` spend (`\\$1,284.65` of `\\$2,000.00` workspace cap), 14-day accepted-code survival rate (`84.2%`), and average PR review cycle-time reduction paired with `AiaCodingRulePack` false-positive dismissal rates, then tune noisy rules in `#/rule-packs` with optimistic UI updates.\n\n---\n\n## 6. Consolidated Feature Priorities & Work Packages\n\n### 6.1 `P0` Foundation Work Packages (Must-Have Release Core)\n- **WP-P0-1 — Repo Context & Scoped Rule Packs (`ACA-001`, `ACA-002`):** `AiaCodeRepoBinding` CRUD, forced secret-glob exclusions, indexing watermarks, and `AiaCodingRulePack` standards authoring.\n- **WP-P0-2 — Grounded Coding Studio & Hunk Proposals (`ACA-006`, `ACA-007`, `ACA-008`):** `AiaCodingSession` + `projectChannelMessage` studio, `@file`/`@symbol`/`@issue` context grounding, multi-model selector, and hunk-level `AiaCodePatchProposal` workflow.\n- **WP-P0-3 — Sandbox Issue-to-PR Tasks & Human Gates (`ACA-011`, `ACA-012`, `ACA-014`):** `AiaCodingTask` `<rapider-kanban>` + list views, bounded sandbox execution loop, and mandatory Home `WorkItem` gates on protected paths.\n- **WP-P0-4 — Agentic PR Review & Secret/SAST Blocking (`ACA-016`, `ACA-017`):** Idempotent `AiaPrReviewRun` engine, inline `AiaReviewFinding` generation, and hard block on `BLOCKED_SECRET` / `BLOCKED_SAST` diffs.\n- **WP-P0-5 — Policy Guardrails & `Decimal128` Spend Ledger (`ACA-021`, `ACA-022`):** `AiaCodingPolicy` console (`<rapider-phone-input>` for AppSec escalation) and immutable `AiaUsageLedgerEntry` metering.\n\n### 6.2 `P1` Scale & Enterprise Work Packages\n- **WP-P1-1 — Schema/Issue Grounding & Slash Recipes (`ACA-003`, `ACA-004`, `ACA-005`):** Rapider manifest/component schema grounding, `ApmIssue` acceptance criteria pinning, and parameterized team slash recipes.\n- **WP-P1-2 — Test Synthesis, Parallel Worktrees & Autofix Handoffs (`ACA-009`, `ACA-013`, `ACA-018`, `ACA-019`):** Unit/E2E test generator, parallel sub-task branch decomposition, one-click PR review autofix, and public-code/copyleft license screening.\n- **WP-P1-3 — Persistence Telemetry, CLI Bridge & Quota Escalations (`ACA-023`, `ACA-024`, `ACA-025`):** 14-day code survival metrics, scoped CLI/webhook bridge tokens, and `WorkItem` seat budget override workflows.\n\n### 6.3 `P2` Adjacent & Advanced Intelligence Work Packages\n- **WP-P2-1 — Legacy Modernization, CI Auto-Triage & Drift Checks (`ACA-010`, `ACA-015`, `ACA-020`):** Legacy dependency maps, `#105` failed CI log remediation proposals, and cross-suite schema drift detection.\n- **WP-P2-2 — Sprint Velocity Correlation, Rule Tuning & Onboarding (`ACA-026`, `ACA-027`, `ACA-028`):** Aggregate `ApmSprint` velocity correlation, rule noise analytics, and grounded repo onboarding guides.\n\n---\n\n## 7. Roles, Permissions & Field-Level Governance\n\n| Role | Permitted Actions | Restricted / Field-Level Boundaries |\n| :--- | :--- | :--- |\n| **Developer (`aia.developer`)** | Create own `AiaCodingSession`s; generate/accept `AiaCodePatchProposal`s on permitted repos; dispatch `AiaCodingTask`s; apply PR autofixes; view own `AiaUsageLedgerEntry` spend. | Cannot edit `AiaCodingPolicy`, raise own `monthlySeatCapAmount`, bypass `BLOCKED_SECRET`/`BLOCKED_SAST` blocks, or view individual token logs of peers. |\n| **Tech Lead / Reviewer (`aia.tech_lead`)** | All Developer actions + author/publish team `AiaCodingRulePack`s, manage `AiaCodeRepoBinding`s for assigned `ApmProject`s, approve standard PR handoffs, view aggregate team velocity/spend. | Cannot disable workspace-wide `enforceZeroDataRetention` or override `CRITICAL` security findings without AppSec role. |\n| **AppSec / Governance Admin (`aia.security_admin`)** | Configure `AiaCodingPolicy` (ZDR, model allowlists, `protectedPathGlobs`, copyleft blocking); approve/reject protected-path & `CRITICAL` security `WorkItem`s; export audit logs. | Cannot mutate historical `AiaUsageLedgerEntry` records (append-only invariant enforced at storage/command layer). |\n| **Engineering FinOps / Workspace Admin (`aia.admin`)** | Configure workspace & seat `Decimal128` spend caps, approve budget-override `WorkItem`s, manage provider secret references (`credentialSecretRef`). | Raw secret values in platform vault remain write-only/masked (`********`) on all UI responses and API reads. |\n\n---\n\n## 8. Technical APIs, Guarded Commands, Events & `requiredWorkflows`\n\n### 8.1 Idempotent Guarded Commands\nEvery state-mutating API requires `idempotencyKey` (UUID), `correlationId` (UUID), and `expectedVersion` (optimistic concurrency):\n- `TriggerRepoContextIndex` — Validates `credentialSecretRef`, enforces secret-file exclusion globs, and enqueues incremental symbol/vector indexing on `AiaCodeRepoBinding`.\n- `ProposeSessionCodePatch` — Executes grounded prompt against allowed ZDR model, runs deterministic secret/SAST & license scanners, creates `AiaCodePatchProposal`, and appends `AiaUsageLedgerEntry`.\n- `DispatchAutonomousCodingTask` — Checks caller's remaining `Decimal128` seat/workspace cap, links `apmIssueId`, creates `AiaCodingTask` (`QUEUED`), and starts sandbox workflow.\n- `PublishTaskPullRequest` — Verifies `testRunStatus`, checks changed files against `protectedPathGlobs` (creating a Platform `WorkItem` if matched), or opens draft PR and records `externalPrUrl`.\n- `ApplyReviewFindingAutofix` — Commits `AiaReviewFinding.autofixDiff` to PR head branch and updates `disposition = AUTOFIX_APPLIED`.\n\n### 8.2 Domain Events (Kafka)\n- **Published:** `aia.repo.indexed.v1`, `aia.coding_task.dispatched.v1`, `aia.coding_task.awaiting_approval.v1`, `aia.coding_task.pr_opened.v1`, `aia.pr_review.completed.v1`, `aia.security.secret_blocked.v1`, `aia.usage.cap_threshold_reached.v1`.\n- **Consumed:** `apm.issue.assigned_to_agent.v1` (auto-creates draft `AiaCodingTask`), `git.pull_request.synchronized.v1` (triggers `AiaPrReviewRun`), `cicd.pipeline.failed.v1` (optional `P2` remediation draft), `platform.workitem.completed.v1` (unlocks gated `AiaCodingTask` or budget cap).\n\n### 8.3 `requiredWorkflows` (Declared in `app.manifest.json`)\n1. `aiaIndexRepositoryContextWorkflow` — Incremental AST/symbol + embedding indexer with strict `.env`/keyfile scrubbing.\n2. `aiaRunSandboxCodingTaskWorkflow` — Ephemeral isolated container orchestrator executing plan -> edit -> lint/test -> patch scan up to `maxIterations`.\n3. `aiaTriggerAgenticPrReviewWorkflow` — Webhook/event-driven cross-file PR diff analyzer and inline autofix generator.\n4. `aiaEvaluateSpendThresholdWorkflow` — Real-time `Decimal128` spend aggregator emitting 80% warning notifications and 100% hard-cap `WorkItem` escalations.\n\n### 8.4 Grounded Rapider AI Guardrails\n- **Citation Mandate:** Every coding session answer, legacy walkthrough, and PR review finding MUST cite concrete repository file paths, line ranges (`file.ts:L42-L68`), or canonical `ApmIssue` IDs.\n- **Zero ACL Bypass:** Context retrieval queries strictly intersect with the requesting user's repository and `ApmProject` read permissions.\n- **Human Confirmation for Consequential Actions:** Autonomous tasks can **never** merge a Pull Request, push directly to `main`/`production`, alter `AiaCodingPolicy`, or deploy infrastructure without explicit human confirmation.\n\n---\n\n## 9. Security, Privacy, Compliance & Non-Functional Requirements\n\n- **Zero-Data-Retention (ZDR) & Prompt Privacy (SOC 2 Type II / ISO 27001 / GDPR):** When `enforceZeroDataRetention = true`, requests route exclusively to ZDR-contracted model endpoints where prompts and code snippets are never retained or used for model training. Customer PII and credentials detected via regex/entropy pre-filters are redacted before external LLM egress.\n- **Strict Secret Ban:** Zero hardcoded API keys, Git tokens, database URIs, or webhook secrets in source code, `Aia*` records, or E2E harnesses; only masked vault pointers (`credentialSecretRef`) are persisted.\n- **Immutable Audit & Retention:** `AiaUsageLedgerEntry` and accepted `AiaCodePatchProposal` / `AiaPrReviewRun` snapshots are append-only for SOC 2 change-management traceability (configurable 1–7 year retention; session chat logs support configurable 90-day auto-purge).\n- **Accessibility & Responsive UX:** Full **WCAG 2.2 AA** compliance (keyboard-navigable diff hunks, ARIA labels on icon-only delete buttons, high-contrast syntax themes in both Dark and Light modes, `#ffffff !important` text on primary/danger actions) and responsive layouts across `390px` (mobile status/review triage), `768px` (tablet), and `1440px` (desktop split-pane studio).\n- **Performance Targets:** Initial page render `< 400ms` via `findSWR`/`countSWR`; client-side search/tag filtering `< 50ms`; first-pass agentic PR review `< 90s` p95 for diffs up to 1,500 lines.\n\n---\n\n## 10. Deterministic Acceptance Criteria\n\n1. **Sidebar 3-Item Grouping Rule:** Inspecting `app.manifest.json` confirms 9 menu-visible pages organized into 3 sidebar sections (`Coding Workspace`, `Agentic Delivery`, `Governance & Insights`) with **3 items each**, while `coding-task-detail`, `pr-review-detail`, and `new-coding-task` set `displayOnMenu: false`.\n2. **SWR Clean Query & Soft-Delete Hygiene:** Every page mounts via `findSWR` / `countSWR` with zero client-side `isDeleted` where filters and defensively filters local arrays (`item.isDeleted !== true`).\n3. **Table Actions & Click-Through Navigation:** Tables on `repositories`, `coding-tasks`, `patch-proposals`, `pr-reviews`, and `rule-packs` contain **no View button**; clicking the primary identifier navigates to the detail route, `Edit` renders icon+text, and `Delete` renders icon-only with ARIA tooltip and custom confirmation modal (zero `window.alert`/`confirm`/`prompt`).\n4. **Search, `#activeFilterTagsBar` & `Clear all`:** Typing a search query or clicking a status/severity pill synchronously filters both List and `<rapider-kanban>` views, displays HTML-escaped dismissible chips in `#activeFilterTagsBar`, and clicking `Clear all` resets all filters and restores the full dataset.\n5. **Custom Elements Adoption:** `coding-tasks` uses `<rapider-kanban>` for task pipeline stages, and `governance-policies` uses `<rapider-phone-input>` for E.164 AppSec escalation phone entry.\n6. **Drawer Lifecycle & `finally` Reset:** Submitting or cancelling `new-coding-task` restores button label/disabled state inside a `finally` block, clears `AiaCodingTask` SWR cache, broadcasts `RECORD_CREATED`, and closes the drawer via `closePageDrawer()`.\n7. **Optimistic Edit & Delete with Rollback:** Editing a rule pack (`AiaCodingRulePack`) or deleting a draft repo binding immediately mutates in-memory state, re-renders List/Kanban views, clears SWR `sessionStorage` keys, and rolls back cleanly with an error toast on simulated API failure.\n8. **Secret & SAST Hard Block Invariant:** Any `AiaCodePatchProposal` containing simulated AWS/Git/DB secret patterns transitions to `securityScanStatus = BLOCKED_SECRET` and deterministically rejects `Accept` / `Publish PR` commands.\n9. **Protected-Path Home `WorkItem` Gate:** Dispatching an `AiaCodingTask` whose diff modifies a path matching `AiaCodingPolicy.protectedPathGlobs` halts at `AWAITING_REVIEW` and creates a linked Rapider Home `WorkItem` rather than opening an external PR automatically.\n10. **Idempotent Agentic PR Review:** Re-delivering the identical `(repoBindingId, externalPrId, headCommitSha)` event returns the existing `AiaPrReviewRun` without duplicating `AiaReviewFinding` records.\n11. **Exact `Decimal128` Metering & Hard Cap Enforcement:** All token rates, monthly caps (e.g., `\\$50.00`), and `AiaUsageLedgerEntry.estimatedCostAmount` persist as `Decimal128` with `currencyCode`; attempts to mutate or delete a posted `AiaUsageLedgerEntry` are rejected, and exceeding 100% seat cap blocks new non-exempt tasks while issuing a budget-override `WorkItem`.\n12. **No `projectId` Leakage:** Schema inspection across all 9 `Aia*` models confirms zero `projectId` or `workspaceId` fields.\n13. **Dark & Light Theme Contrast:** Automated `validate_theme` passes across all 12 routes in both Light and Dark modes, verifying `#ffffff !important` contrast on all primary and destructive buttons.\n14. **Real Click-Through & Back Restoration E2E:** E2E test clicks a filtered `TASK-1048` link on `#/coding-tasks`, asserts parameter hydration and diff rendering on `#/coding-task-detail?id=...` (zero `<base href>` 404 diversion), clicks `Back to Tasks`, and verifies active filter chips remain intact.\n",
+  "thumbnailUrl": "",
+  "isolationScope": "ENTERPRISE_SHARED",
+  "dataModels": [
+    {
+      "name": "ApmEpic",
+      "title": "Epic",
+      "description": "A large body of work that can be broken down into smaller issues.",
+      "domainName": "Rapider Project & Portfolio Suite",
+      "domainKey": "APM",
+      "datatableName": "ApmEpic",
+      "dataTableName": "ApmEpic",
+      "sqlTableName": "apm_epic",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ title }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "title",
+          "description"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "title",
+            "projectId"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "description"
+          ],
+          "additionalPrompt": "Ensure the epic title clearly states the overarching feature or goal.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "An epic must belong to a valid project."
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "projectId"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "When updating an epic's status to Done, suggest checking if all child issues are also Done.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "",
+          "restrictedStates": [
+            {
+              "description": "Cannot modify completed epics.",
+              "where": {}
+            }
+          ]
+        },
+        "entityRead": {
+          "defaultPageSize": 15,
+          "defaultContextLimit": 10,
+          "hiddenFields": [],
+          "maskedFields": [],
+          "additionalPrompt": "Group epics by project when listing multiple."
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [
+            "issues"
+          ],
+          "restrictedStates": [
+            {
+              "description": "Cannot delete epics that have active issues.",
+              "where": {}
+            }
+          ]
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "projectId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "project",
+          "type": "belongsTo",
+          "sourceModel": "ApmEpic",
+          "sourceField": "projectId",
+          "targetModel": "ApmProject",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "The project this epic belongs to."
+        },
+        {
+          "name": "issues",
+          "type": "hasMany",
+          "sourceModel": "ApmEpic",
+          "sourceField": "id",
+          "targetModel": "ApmIssue",
+          "targetField": "epicId",
+          "throughModel": null,
+          "description": "The issues that make up this epic."
+        }
+      ]
+    },
+    {
+      "name": "ApmIssue",
+      "title": "Issue",
+      "description": "An actionable item such as a bug, feature, or task.",
+      "domainName": "Rapider Project & Portfolio Suite",
+      "domainKey": "APM",
+      "datatableName": "ApmIssue",
+      "dataTableName": "ApmIssue",
+      "sqlTableName": "apm_issue",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ title }} - {{ status }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "title",
+          "description"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "title",
+            "projectId",
+            "type"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "description",
+            "status"
+          ],
+          "additionalPrompt": "If the issue type is 'Bug', ensure a description is provided detailing the steps to reproduce.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "Priority must be one of: Low, Medium, High, Critical."
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "projectId"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "When updating status to 'Done', ensure all required fields are filled.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "Cannot change type from Bug to Feature without user confirmation.",
+          "restrictedStates": [
+            {
+              "description": "Cannot modify closed issues.",
+              "where": {}
+            }
+          ]
+        },
+        "entityRead": {
+          "defaultPageSize": 25,
+          "defaultContextLimit": 15,
+          "hiddenFields": [],
+          "maskedFields": [],
+          "additionalPrompt": "Group issues by status and priority when summarizing."
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": [
+            {
+              "description": "Cannot delete issues that are currently In Progress.",
+              "where": {}
+            }
+          ]
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "projectId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "epicId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sprintId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "priority",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "storyPoints",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "labelIds",
+          "type": "array",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": true
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "assigneeId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "reporterId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "project",
+          "type": "belongsTo",
+          "sourceModel": "ApmIssue",
+          "sourceField": "projectId",
+          "targetModel": "ApmProject",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "The project this issue belongs to."
+        },
+        {
+          "name": "epic",
+          "type": "belongsTo",
+          "sourceModel": "ApmIssue",
+          "sourceField": "epicId",
+          "targetModel": "ApmEpic",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "The epic this issue belongs to."
+        },
+        {
+          "name": "sprint",
+          "type": "belongsTo",
+          "sourceModel": "ApmIssue",
+          "sourceField": "sprintId",
+          "targetModel": "ApmSprint",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "The sprint this issue is assigned to."
+        },
+        {
+          "name": "labels",
+          "type": "referencesMany",
+          "sourceModel": "ApmIssue",
+          "sourceField": "labelIds",
+          "targetModel": "ApmLabel",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Labels categorized for this issue."
+        }
+      ]
+    },
+    {
+      "name": "ApmProject",
+      "title": "Project",
+      "description": "Represents a high-level initiative or body of work containing epics, sprints, and issues.",
+      "domainName": "Rapider Project & Portfolio Suite",
+      "domainKey": "APM",
+      "datatableName": "ApmProject",
+      "dataTableName": "ApmProject",
+      "sqlTableName": "apm_project",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ name }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "name",
+          "description"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "name"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "description"
+          ],
+          "additionalPrompt": "When creating a project, ensure the name is concise and professional.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "Project name must be unique."
+        },
+        "entityItemUpdate": {
+          "immutableFields": [],
+          "autoGenerateFields": [],
+          "additionalPrompt": "Do not change the project name unless explicitly requested.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "Ensure status transitions make logical sense.",
+          "restrictedStates": [
+            {
+              "description": "Cannot modify archived projects.",
+              "where": {}
+            }
+          ]
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 10,
+          "hiddenFields": [],
+          "maskedFields": [],
+          "additionalPrompt": "Summarize project progress by counting related open vs closed issues if possible."
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [
+            "epics",
+            "sprints",
+            "issues"
+          ],
+          "restrictedStates": [
+            {
+              "description": "Cannot delete active projects.",
+              "where": {}
+            }
+          ]
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "epics",
+          "type": "hasMany",
+          "sourceModel": "ApmProject",
+          "sourceField": "id",
+          "targetModel": "ApmEpic",
+          "targetField": "projectId",
+          "throughModel": null,
+          "description": "A project can have multiple epics."
+        },
+        {
+          "name": "sprints",
+          "type": "hasMany",
+          "sourceModel": "ApmProject",
+          "sourceField": "id",
+          "targetModel": "ApmSprint",
+          "targetField": "projectId",
+          "throughModel": null,
+          "description": "A project can have multiple sprints."
+        },
+        {
+          "name": "issues",
+          "type": "hasMany",
+          "sourceModel": "ApmProject",
+          "sourceField": "id",
+          "targetModel": "ApmIssue",
+          "targetField": "projectId",
+          "throughModel": null,
+          "description": "A project contains multiple issues."
+        }
+      ]
+    },
+    {
+      "name": "ApmSprint",
+      "title": "Sprint",
+      "description": "A time-boxed iteration for a team to complete a set amount of work.",
+      "domainName": "Rapider Project & Portfolio Suite",
+      "domainKey": "APM",
+      "datatableName": "ApmSprint",
+      "dataTableName": "ApmSprint",
+      "sqlTableName": "apm_sprint",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ name }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "name",
+          "goal"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "name",
+            "projectId",
+            "startDate",
+            "endDate"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "goal"
+          ],
+          "additionalPrompt": "Ensure sprint dates do not overlap with existing active sprints in the same project.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "End date must be after start date."
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "projectId"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "If completing a sprint, ask the user what to do with incomplete issues.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "End date must be after start date.",
+          "restrictedStates": [
+            {
+              "description": "Cannot modify completed sprints.",
+              "where": {}
+            }
+          ]
+        },
+        "entityRead": {
+          "defaultPageSize": 10,
+          "defaultContextLimit": 5,
+          "hiddenFields": [],
+          "maskedFields": [],
+          "additionalPrompt": "Highlight the sprint goal and days remaining when summarizing an active sprint."
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": [
+            {
+              "description": "Cannot delete active sprints.",
+              "where": {}
+            }
+          ]
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "projectId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "goal",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "startDate",
+          "type": "date",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "endDate",
+          "type": "date",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "project",
+          "type": "belongsTo",
+          "sourceModel": "ApmSprint",
+          "sourceField": "projectId",
+          "targetModel": "ApmProject",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "The project this sprint belongs to."
+        },
+        {
+          "name": "issues",
+          "type": "hasMany",
+          "sourceModel": "ApmSprint",
+          "sourceField": "id",
+          "targetModel": "ApmIssue",
+          "targetField": "sprintId",
+          "throughModel": null,
+          "description": "The issues assigned to this sprint."
+        }
+      ]
+    },
+    {
+      "name": "DevRepository",
+      "title": "Repository",
+      "description": "`slug` unique per workspace. `ARCHIVED` repositories become strictly read-only (pushes, PR merges, and rule deletions rejected).",
+      "domainName": "Rapider Developer Suite",
+      "domainKey": "DEV",
+      "datatableName": "DevRepository",
+      "dataTableName": "DevRepository",
+      "sqlTableName": "dev_repository",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ name }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "name",
+          "description",
+          "slug"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Repository, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "slug",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "visibility",
+          "type": "string",
+          "description": "Allowed values: PRIVATE, INTERNAL",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "enumValues": [
+            "PRIVATE",
+            "INTERNAL"
+          ],
+          "options": [
+            "PRIVATE",
+            "INTERNAL"
+          ]
+        },
+        {
+          "name": "defaultBranch",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isTemplate",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "templateRepoId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "allowedMergeStrategies",
+          "type": "array",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": true
+        },
+        {
+          "name": "enableMergeQueue",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "secretPushProtection",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "mirrorVaultSecretRef",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "storageUsedMb",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "apmProjectId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerDepartmentId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Allowed values: ACTIVE, ARCHIVED",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "enumValues": [
+            "ACTIVE",
+            "ARCHIVED"
+          ],
+          "options": [
+            "ACTIVE",
+            "ARCHIVED"
+          ]
+        },
+        {
+          "name": "version",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "gitRepoRef",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "newCodeHorizonType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "repoName",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "providerType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "apmProject",
+          "type": "belongsTo",
+          "sourceModel": "DevRepository",
+          "sourceField": "apmProjectId",
+          "targetModel": "ApmProject",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "DevRepository apmProject foreign key link to ApmProject."
+        }
+      ]
+    },
+    {
+      "name": "HrEmployee",
+      "title": "Employee",
+      "description": "Core profile representing an individual worker within the organization.",
+      "domainName": "Rapider HR & Talent Suite",
+      "domainKey": "HR",
+      "datatableName": "HrEmployee",
+      "dataTableName": "HrEmployee",
+      "sqlTableName": "hr_employee",
+      "isolationScope": "ENTERPRISE_SHARED_WITH_CONFIDENTIAL_VAULTS",
+      "titleFieldTemplate": "{{ firstName }} {{ lastName }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "firstName",
+          "lastName",
+          "email",
+          "jobTitle",
+          "employeeNumber"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "firstName",
+            "lastName",
+            "email",
+            "status"
+          ],
+          "immutableFields": [],
+          "requiredRelations": [],
+          "autoGenerateFields": [],
+          "additionalPrompt": "Ensure the email address is formatted correctly. If a department is mentioned, link the employee to the correct departmentId.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "If status is 'Active', a hireDate must be provided or assumed as today."
+        },
+        "entityItemUpdate": {
+          "immutableFields": [],
+          "autoGenerateFields": [],
+          "additionalPrompt": "When updating manager or department, suggest creating a Lifecycle Event.",
+          "requireUserConfirmation": true,
+          "customValidationPrompt": "Ensure the employee is not set as their own manager.",
+          "restrictedStates": [
+            {
+              "description": "Cannot update terminated employees without authorization.",
+              "where": {}
+            }
+          ]
+        },
+        "entityRead": {
+          "defaultPageSize": 50,
+          "defaultContextLimit": 100,
+          "hiddenFields": [
+            "ssn"
+          ],
+          "maskedFields": [
+            "personalEmail",
+            "phone"
+          ],
+          "additionalPrompt": "Always show job title, department, and status."
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [
+            "lifecycleEvents",
+            "documents",
+            "emergencyContacts"
+          ],
+          "restrictedStates": [
+            {
+              "description": "Active employees must be terminated before deletion.",
+              "where": {}
+            }
+          ]
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "employeeNumber",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "firstName",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "lastName",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "preferredName",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "personalEmail",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "jobTitle",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "workerType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "employmentType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "hireDate",
+          "type": "date",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "startDate",
+          "type": "date",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "endDate",
+          "type": "date",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "departmentId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "managerId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "positionId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "jobProfileId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "locationId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "legalEntityId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "weeklyHours",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "timeZone",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "avatarColor",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "notes",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "department",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "departmentId",
+          "targetModel": "HrDepartment",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Department this employee belongs to."
+        },
+        {
+          "name": "manager",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "managerId",
+          "targetModel": "HrEmployee",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Manager this employee reports to."
+        },
+        {
+          "name": "position",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "positionId",
+          "targetModel": "HrPosition",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Specific position this employee holds."
+        },
+        {
+          "name": "jobProfile",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "jobProfileId",
+          "targetModel": "HrJobProfile",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Job profile associated with this employee."
+        },
+        {
+          "name": "location",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "locationId",
+          "targetModel": "HrLocation",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Work location of this employee."
+        },
+        {
+          "name": "legalEntity",
+          "type": "belongsTo",
+          "sourceModel": "HrEmployee",
+          "sourceField": "legalEntityId",
+          "targetModel": "FinLegalEntity",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "Legal entity employing this person."
+        },
+        {
+          "name": "lifecycleEvents",
+          "type": "hasMany",
+          "sourceModel": "HrEmployee",
+          "sourceField": "id",
+          "targetModel": "HrLifecycleEvent",
+          "targetField": "employeeId",
+          "throughModel": null,
+          "description": "Lifecycle events for this employee."
+        },
+        {
+          "name": "changeRequests",
+          "type": "hasMany",
+          "sourceModel": "HrEmployee",
+          "sourceField": "id",
+          "targetModel": "HrChangeRequest",
+          "targetField": "employeeId",
+          "throughModel": null,
+          "description": "Pending and past change requests for this employee."
+        },
+        {
+          "name": "documents",
+          "type": "hasMany",
+          "sourceModel": "HrEmployee",
+          "sourceField": "id",
+          "targetModel": "HrDocumentRef",
+          "targetField": "employeeId",
+          "throughModel": null,
+          "description": "Uploaded compliance and employment documents."
+        },
+        {
+          "name": "emergencyContacts",
+          "type": "hasMany",
+          "sourceModel": "HrEmployee",
+          "sourceField": "id",
+          "targetModel": "HrEmergencyContact",
+          "targetField": "employeeId",
+          "throughModel": null,
+          "description": "Emergency contacts."
+        },
+        {
+          "name": "directReports",
+          "type": "hasMany",
+          "sourceModel": "HrEmployee",
+          "sourceField": "id",
+          "targetModel": "HrEmployee",
+          "targetField": "managerId",
+          "throughModel": null,
+          "description": "Direct reports who report to this manager."
+        }
+      ]
+    },
+    {
+      "name": "AiaCodingRulePack",
+      "title": "Coding Rule Pack",
+      "description": "`PR_CHECKLIST`), `pathGlobs` (String[]), `languageTags` (String[]), `instructionMarkdown` (Text), `status` (`DRAFT`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaCodingRulePack",
+      "dataTableName": "AiaCodingRulePack",
+      "sqlTableName": "aia_coding_rule_pack",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ name }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "name",
+          "code"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Coding Rule Pack, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "packType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaCodingSession",
+      "title": "Coding Session",
+      "description": "`LEGACY_EXPLAIN`), `selectedModelKey` (String), `pinnedRefsJson` (JSON), `status` (`ACTIVE`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaCodingSession",
+      "dataTableName": "AiaCodingSession",
+      "sqlTableName": "aia_coding_session",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ title }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "title"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Coding Session, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sessionMode",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaCodingTask",
+      "title": "Coding Task",
+      "description": "`SANDBOX_RUNNING`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaCodingTask",
+      "dataTableName": "AiaCodingTask",
+      "sqlTableName": "aia_coding_task",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ title }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "title"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Coding Task, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "taskNumber",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "specificationMarkdown",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sourceBranch",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "workingBranch",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaCodePatchProposal",
+      "title": "Code Patch Proposal",
+      "description": "`BLOCKED_SECRET`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaCodePatchProposal",
+      "dataTableName": "AiaCodePatchProposal",
+      "sqlTableName": "aia_code_patch_proposal",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ id }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "summary"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Code Patch Proposal, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "filesChangedCount",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "linesAdded",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "linesDeleted",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "unifiedDiffPayload",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "hunkStatesJson",
+          "type": "object",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "securityScanStatus",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaPrReviewRun",
+      "title": "Pr Review Run",
+      "description": "`CHANGES_SUGGESTED`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaPrReviewRun",
+      "dataTableName": "AiaPrReviewRun",
+      "sqlTableName": "aia_pr_review_run",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ id }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "id"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Pr Review Run, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "externalPrId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "prTitle",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "prAuthorHandle",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "headCommitSha",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "baseBranch",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "reviewStatus",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaReviewFinding",
+      "title": "Review Finding",
+      "description": "`PERFORMANCE`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaReviewFinding",
+      "dataTableName": "AiaReviewFinding",
+      "sqlTableName": "aia_review_finding",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ id }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "id"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Review Finding, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaCodingPolicy",
+      "title": "Coding Policy",
+      "description": "Exactly one active workspace default policy; `monthlySeatCapAmount` and `monthlyWorkspaceCapAmount` must be `>= 0` (`Decimal128`).",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaCodingPolicy",
+      "dataTableName": "AiaCodingPolicy",
+      "sqlTableName": "aia_coding_policy",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ id }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "id"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Coding Policy, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "policyName",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "allowedModelKeys",
+          "type": "array",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": true
+        },
+        {
+          "name": "enforceZeroDataRetention",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "blockPublicCodeMatches",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "protectedPathGlobs",
+          "type": "array",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": true
+        },
+        {
+          "name": "monthlySeatCapAmount",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "monthlyWorkspaceCapAmount",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "currencyCode",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "maxSandboxMinutesPerTask",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "securityEscalationPhone",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDefault",
+          "type": "boolean",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        },
+        {
+          "name": "version",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": []
+    },
+    {
+      "name": "AiaUsageLedgerEntry",
+      "title": "Usage Ledger Entry",
+      "description": "`SANDBOX_TASK`\\",
+      "domainName": "Rapider AI & Automation Suite",
+      "domainKey": "AIA",
+      "datatableName": "AiaUsageLedgerEntry",
+      "dataTableName": "AiaUsageLedgerEntry",
+      "sqlTableName": "aia_usage_ledger_entry",
+      "isolationScope": "ENTERPRISE_SHARED",
+      "titleFieldTemplate": "{{ id }}",
+      "scope": {
+        "where": {}
+      },
+      "aiAgentConfig": {
+        "vectorSearchFields": [
+          "id"
+        ],
+        "planning": {
+          "availableOperations": [
+            "create",
+            "update",
+            "read",
+            "delete"
+          ]
+        },
+        "entityItemCreate": {
+          "requiredFields": [
+            "id"
+          ],
+          "immutableFields": [
+            "isDeleted"
+          ],
+          "requiredRelations": [],
+          "autoGenerateFields": [
+            "id"
+          ],
+          "additionalPrompt": "When creating Usage Ledger Entry, ensure required attributes are populated.",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": ""
+        },
+        "entityItemUpdate": {
+          "immutableFields": [
+            "id"
+          ],
+          "autoGenerateFields": [],
+          "additionalPrompt": "",
+          "requireUserConfirmation": false,
+          "customValidationPrompt": "",
+          "restrictedStates": []
+        },
+        "entityRead": {
+          "defaultPageSize": 20,
+          "defaultContextLimit": 30,
+          "hiddenFields": [
+            "isDeleted"
+          ],
+          "maskedFields": [],
+          "additionalPrompt": ""
+        },
+        "entityItemDelete": {
+          "requireCaptchaConfirmation": true,
+          "cascadingRelations": [],
+          "restrictedStates": []
+        }
+      },
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Primary key UUID.",
+          "isPrimaryKey": true,
+          "isRequired": true,
+          "isHidden": false,
+          "isArray": false,
+          "defaultFn": "uuidv4"
+        },
+        {
+          "name": "recordedAt",
+          "type": "datetime",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "meterType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "chargeCategory",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "pagesProcessed",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "vlmTokensUsed",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "unitRatePerPage",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "costAmount",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "currencyCode",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "correlationId",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "audioMinutesBilled",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "llmTokensUsed",
+          "type": "number",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ledgerEntryNo",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "usageKind",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "usageType",
+          "type": "string",
+          "description": "",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Lifecycle or record status.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "isDeleted",
+          "type": "boolean",
+          "description": "Soft deletion flag.",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false,
+          "default": false
+        }
+      ],
+      "relations": [
+        {
+          "name": "document",
+          "type": "belongsTo",
+          "sourceModel": "AiaUsageLedgerEntry",
+          "sourceField": "documentId",
+          "targetModel": "AiaExtractionDocument",
+          "targetField": "id",
+          "throughModel": null,
+          "description": "AiaUsageLedgerEntry document foreign key link to AiaExtractionDocument."
+        }
+      ]
+    }
+  ],
+  "webPages": [
+    {
+      "name": "Coding Assistant Overview",
+      "route": "dashboard",
+      "htmlFilePath": "pages/dashboard/dashboard.html",
+      "title": "Coding Assistant Overview",
+      "group": "Coding Workspace",
+      "icon": "fas fa-home",
+      "displayInMenu": true,
+      "order": 1,
+      "developmentDetails": "KPI cards (countSWR/findSWR for active tasks, patch acceptance %, PR review turnaround, monthly Decimal128 spend vs. budget), active sandbox queue, and quick-launch bar."
+    },
+    {
+      "name": "Interactive Coding Studio",
+      "route": "coding-studio",
+      "htmlFilePath": "pages/coding-studio/coding-studio.html",
+      "title": "Interactive Coding Studio",
+      "group": "Coding Workspace",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 2,
+      "developmentDetails": "Split-pane grounded chat (projectChannelMessage thread), @file/@symbol/@issue context picker, slash recipe launcher, model selector, and hunk-level diff viewer (AiaCodePatchProposal)."
+    },
+    {
+      "name": "Indexed Repositories",
+      "route": "repositories",
+      "htmlFilePath": "pages/repositories/repositories.html",
+      "title": "Indexed Repositories",
+      "group": "Coding Workspace",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 3,
+      "developmentDetails": "Searchable table of AiaCodeRepoBinding records with #activeFilterTagsBar + Clear all, index status badges, commit SHA watermark, clickable repo name -> detail, icon+text Edit, icon-only Delete."
+    },
+    {
+      "name": "Autonomous Coding Tasks",
+      "route": "coding-tasks",
+      "htmlFilePath": "pages/coding-tasks/coding-tasks.html",
+      "title": "Autonomous Coding Tasks",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 4,
+      "developmentDetails": "Dual List + <rapider-kanban> board (QUEUED, PLANNING, SANDBOX_RUNNING, AWAITING_REVIEW, PR_OPENED, COMPLETED, FAILED) linked to ApmIssues with #activeFilterTagsBar."
+    },
+    {
+      "name": "Patch Proposals & Diffs",
+      "route": "patch-proposals",
+      "htmlFilePath": "pages/patch-proposals/patch-proposals.html",
+      "title": "Patch Proposals & Diffs",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 5,
+      "developmentDetails": "Filterable table of AiaCodePatchProposal changesets across sessions and tasks, security/license gate badges, test pass summary, and hunk acceptance counts."
+    },
+    {
+      "name": "Agentic PR Reviews",
+      "route": "pr-reviews",
+      "htmlFilePath": "pages/pr-reviews/pr-reviews.html",
+      "title": "Agentic PR Reviews",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 6,
+      "developmentDetails": "Real-time table of AiaPrReviewRun evaluations with severity breakdown (CRITICAL/HIGH/MEDIUM/NIT), autofix readiness, and clickable PR identifier navigation."
+    },
+    {
+      "name": "Coding Rules & Recipes",
+      "route": "rule-packs",
+      "htmlFilePath": "pages/rule-packs/rule-packs.html",
+      "title": "Coding Rules & Recipes",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 7,
+      "developmentDetails": "Catalog of versioned AiaCodingRulePack coding standards and slash prompt templates with path-glob scopes, acceptance signal scores, and drawer editor."
+    },
+    {
+      "name": "Guardrails & Model Policies",
+      "route": "governance-policies",
+      "htmlFilePath": "pages/governance-policies/governance-policies.html",
+      "title": "Guardrails & Model Policies",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 8,
+      "developmentDetails": "Admin policy console (AiaCodingPolicy) configuring allowed models, ZDR toggle, protected path globs, copyleft filter, seat/monthly Decimal128 caps, and emergency contact <rapider-phone-input>."
+    },
+    {
+      "name": "Usage Ledger & Velocity ROI",
+      "route": "usage-analytics",
+      "htmlFilePath": "pages/usage-analytics/usage-analytics.html",
+      "title": "Usage Ledger & Velocity ROI",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 9,
+      "developmentDetails": "Team/repo/model spend breakdown (AiaUsageLedgerEntry), suggestion 14-day survival chart, PR cycle-time delta, and CSV audit export."
+    },
+    {
+      "name": "Coding Task & Sandbox Detail",
+      "route": "coding-task-detail",
+      "htmlFilePath": "pages/coding-task-detail/coding-task-detail.html",
+      "title": "Coding Task & Sandbox Detail",
+      "group": "(Hidden)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 10,
+      "developmentDetails": "Full execution trace for AiaCodingTask: pinned ApmIssue spec, approved plan, sandbox step/test logs, proposed multi-file diff, WorkItem gate status, and Back to Tasks state restoration."
+    },
+    {
+      "name": "PR Review & Autofix Detail",
+      "route": "pr-review-detail",
+      "htmlFilePath": "pages/pr-review-detail/pr-review-detail.html",
+      "title": "PR Review & Autofix Detail",
+      "group": "(Hidden)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 11,
+      "developmentDetails": "Architectural summary walkthrough, filterable AiaReviewFinding cards with inline diff previews, one-click \"Apply Autofix\" / \"Hand Off to Coding Task\", and projectChannelMessage Q&A thread."
+    },
+    {
+      "name": "Dispatch Coding Task (Drawer)",
+      "route": "new-coding-task",
+      "htmlFilePath": "pages/new-coding-task/new-coding-task.html",
+      "title": "Dispatch Coding Task (Drawer)",
+      "group": "(Hidden Drawer)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 12,
+      "developmentDetails": "Sliding drawer to launch an AiaCodingTask from an ApmIssue or prompt, choose AiaCodeRepoBinding + target branch + AiaCodingRulePack, auto-closing via closePageDrawer() in try/catch/finally."
+    }
+  ],
+  "workflows": [],
+  "variables": [],
+  "tools": [],
+  "pages": [
+    {
+      "name": "Coding Assistant Overview",
+      "route": "dashboard",
+      "htmlFilePath": "pages/dashboard/dashboard.html",
+      "title": "Coding Assistant Overview",
+      "group": "Coding Workspace",
+      "icon": "fas fa-home",
+      "displayInMenu": true,
+      "order": 1,
+      "developmentDetails": "KPI cards (countSWR/findSWR for active tasks, patch acceptance %, PR review turnaround, monthly Decimal128 spend vs. budget), active sandbox queue, and quick-launch bar."
+    },
+    {
+      "name": "Interactive Coding Studio",
+      "route": "coding-studio",
+      "htmlFilePath": "pages/coding-studio/coding-studio.html",
+      "title": "Interactive Coding Studio",
+      "group": "Coding Workspace",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 2,
+      "developmentDetails": "Split-pane grounded chat (projectChannelMessage thread), @file/@symbol/@issue context picker, slash recipe launcher, model selector, and hunk-level diff viewer (AiaCodePatchProposal)."
+    },
+    {
+      "name": "Indexed Repositories",
+      "route": "repositories",
+      "htmlFilePath": "pages/repositories/repositories.html",
+      "title": "Indexed Repositories",
+      "group": "Coding Workspace",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 3,
+      "developmentDetails": "Searchable table of AiaCodeRepoBinding records with #activeFilterTagsBar + Clear all, index status badges, commit SHA watermark, clickable repo name -> detail, icon+text Edit, icon-only Delete."
+    },
+    {
+      "name": "Autonomous Coding Tasks",
+      "route": "coding-tasks",
+      "htmlFilePath": "pages/coding-tasks/coding-tasks.html",
+      "title": "Autonomous Coding Tasks",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 4,
+      "developmentDetails": "Dual List + <rapider-kanban> board (QUEUED, PLANNING, SANDBOX_RUNNING, AWAITING_REVIEW, PR_OPENED, COMPLETED, FAILED) linked to ApmIssues with #activeFilterTagsBar."
+    },
+    {
+      "name": "Patch Proposals & Diffs",
+      "route": "patch-proposals",
+      "htmlFilePath": "pages/patch-proposals/patch-proposals.html",
+      "title": "Patch Proposals & Diffs",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 5,
+      "developmentDetails": "Filterable table of AiaCodePatchProposal changesets across sessions and tasks, security/license gate badges, test pass summary, and hunk acceptance counts."
+    },
+    {
+      "name": "Agentic PR Reviews",
+      "route": "pr-reviews",
+      "htmlFilePath": "pages/pr-reviews/pr-reviews.html",
+      "title": "Agentic PR Reviews",
+      "group": "Agentic Delivery",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 6,
+      "developmentDetails": "Real-time table of AiaPrReviewRun evaluations with severity breakdown (CRITICAL/HIGH/MEDIUM/NIT), autofix readiness, and clickable PR identifier navigation."
+    },
+    {
+      "name": "Coding Rules & Recipes",
+      "route": "rule-packs",
+      "htmlFilePath": "pages/rule-packs/rule-packs.html",
+      "title": "Coding Rules & Recipes",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 7,
+      "developmentDetails": "Catalog of versioned AiaCodingRulePack coding standards and slash prompt templates with path-glob scopes, acceptance signal scores, and drawer editor."
+    },
+    {
+      "name": "Guardrails & Model Policies",
+      "route": "governance-policies",
+      "htmlFilePath": "pages/governance-policies/governance-policies.html",
+      "title": "Guardrails & Model Policies",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 8,
+      "developmentDetails": "Admin policy console (AiaCodingPolicy) configuring allowed models, ZDR toggle, protected path globs, copyleft filter, seat/monthly Decimal128 caps, and emergency contact <rapider-phone-input>."
+    },
+    {
+      "name": "Usage Ledger & Velocity ROI",
+      "route": "usage-analytics",
+      "htmlFilePath": "pages/usage-analytics/usage-analytics.html",
+      "title": "Usage Ledger & Velocity ROI",
+      "group": "Governance & Insights",
+      "icon": "fas fa-robot",
+      "displayInMenu": true,
+      "order": 9,
+      "developmentDetails": "Team/repo/model spend breakdown (AiaUsageLedgerEntry), suggestion 14-day survival chart, PR cycle-time delta, and CSV audit export."
+    },
+    {
+      "name": "Coding Task & Sandbox Detail",
+      "route": "coding-task-detail",
+      "htmlFilePath": "pages/coding-task-detail/coding-task-detail.html",
+      "title": "Coding Task & Sandbox Detail",
+      "group": "(Hidden)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 10,
+      "developmentDetails": "Full execution trace for AiaCodingTask: pinned ApmIssue spec, approved plan, sandbox step/test logs, proposed multi-file diff, WorkItem gate status, and Back to Tasks state restoration."
+    },
+    {
+      "name": "PR Review & Autofix Detail",
+      "route": "pr-review-detail",
+      "htmlFilePath": "pages/pr-review-detail/pr-review-detail.html",
+      "title": "PR Review & Autofix Detail",
+      "group": "(Hidden)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 11,
+      "developmentDetails": "Architectural summary walkthrough, filterable AiaReviewFinding cards with inline diff previews, one-click \"Apply Autofix\" / \"Hand Off to Coding Task\", and projectChannelMessage Q&A thread."
+    },
+    {
+      "name": "Dispatch Coding Task (Drawer)",
+      "route": "new-coding-task",
+      "htmlFilePath": "pages/new-coding-task/new-coding-task.html",
+      "title": "Dispatch Coding Task (Drawer)",
+      "group": "(Hidden Drawer)",
+      "icon": "fas fa-robot",
+      "displayInMenu": false,
+      "order": 12,
+      "developmentDetails": "Sliding drawer to launch an AiaCodingTask from an ApmIssue or prompt, choose AiaCodeRepoBinding + target branch + AiaCodingRulePack, auto-closing via closePageDrawer() in try/catch/finally."
+    }
+  ]
+}

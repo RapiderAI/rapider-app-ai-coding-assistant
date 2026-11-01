@@ -1,0 +1,627 @@
+{
+  "ApmEpic": [
+    {
+      "id": "00000000-0113-0001-0000-000000000001",
+      "projectId": "00000000-0113-0001-0000-000000000001",
+      "title": "Epic #1 — Enterprise Primary Record",
+      "description": "Epic description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0001-0000-000000000002",
+      "projectId": "00000000-0113-0001-0000-000000000002",
+      "title": "Epic #2 — Enterprise Operations Record",
+      "description": "Epic description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0001-0000-000000000003",
+      "projectId": "00000000-0113-0001-0000-000000000003",
+      "title": "Epic #3 — Enterprise Compliance Record",
+      "description": "Epic description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ApmIssue": [
+    {
+      "id": "00000000-0113-0002-0000-000000000001",
+      "projectId": "00000000-0113-0001-0000-000000000001",
+      "epicId": "00000000-0113-0001-0000-000000000001",
+      "sprintId": "00000000-0113-0001-0000-000000000001",
+      "title": "Issue #1 — Enterprise Primary Record",
+      "description": "Issue description configuration (1)",
+      "type": "Issue type configuration (1)",
+      "status": "ACTIVE",
+      "priority": "Issue priority configuration (1)",
+      "storyPoints": 10,
+      "labelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0113-0001-0000-000000000001",
+      "reporterId": "00000000-0113-0001-0000-000000000001"
+    },
+    {
+      "id": "00000000-0113-0002-0000-000000000002",
+      "projectId": "00000000-0113-0001-0000-000000000002",
+      "epicId": "00000000-0113-0001-0000-000000000002",
+      "sprintId": "00000000-0113-0001-0000-000000000002",
+      "title": "Issue #2 — Enterprise Operations Record",
+      "description": "Issue description configuration (2)",
+      "type": "Issue type configuration (2)",
+      "status": "IN_PROGRESS",
+      "priority": "Issue priority configuration (2)",
+      "storyPoints": 20,
+      "labelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0113-0001-0000-000000000002",
+      "reporterId": "00000000-0113-0001-0000-000000000002"
+    },
+    {
+      "id": "00000000-0113-0002-0000-000000000003",
+      "projectId": "00000000-0113-0001-0000-000000000003",
+      "epicId": "00000000-0113-0001-0000-000000000003",
+      "sprintId": "00000000-0113-0001-0000-000000000003",
+      "title": "Issue #3 — Enterprise Compliance Record",
+      "description": "Issue description configuration (3)",
+      "type": "Issue type configuration (3)",
+      "status": "COMPLETED",
+      "priority": "Issue priority configuration (3)",
+      "storyPoints": 30,
+      "labelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0113-0001-0000-000000000003",
+      "reporterId": "00000000-0113-0001-0000-000000000003"
+    }
+  ],
+  "ApmProject": [
+    {
+      "id": "00000000-0113-0003-0000-000000000001",
+      "name": "Project #1 — Enterprise Primary Record",
+      "description": "Project description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0003-0000-000000000002",
+      "name": "Project #2 — Enterprise Operations Record",
+      "description": "Project description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0003-0000-000000000003",
+      "name": "Project #3 — Enterprise Compliance Record",
+      "description": "Project description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ApmSprint": [
+    {
+      "id": "00000000-0113-0004-0000-000000000001",
+      "projectId": "00000000-0113-0001-0000-000000000001",
+      "name": "Sprint #1 — Enterprise Primary Record",
+      "goal": "Sprint goal configuration (1)",
+      "startDate": "2026-11-01T10:00:00Z",
+      "endDate": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0004-0000-000000000002",
+      "projectId": "00000000-0113-0001-0000-000000000002",
+      "name": "Sprint #2 — Enterprise Operations Record",
+      "goal": "Sprint goal configuration (2)",
+      "startDate": "2026-11-02T10:00:00Z",
+      "endDate": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0004-0000-000000000003",
+      "projectId": "00000000-0113-0001-0000-000000000003",
+      "name": "Sprint #3 — Enterprise Compliance Record",
+      "goal": "Sprint goal configuration (3)",
+      "startDate": "2026-11-03T10:00:00Z",
+      "endDate": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevRepository": [
+    {
+      "id": "00000000-0113-0005-0000-000000000001",
+      "slug": "DR-2026-0001",
+      "name": "Repository #1 — Enterprise Primary Record",
+      "description": "Repository description configuration (1)",
+      "visibility": "Repository visibility configuration (1)",
+      "defaultBranch": "Repository defaultBranch configuration (1)",
+      "isTemplate": true,
+      "templateRepoId": "00000000-0113-0001-0000-000000000001",
+      "allowedMergeStrategies": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "enableMergeQueue": true,
+      "secretPushProtection": true,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (1)",
+      "storageUsedMb": 10,
+      "apmProjectId": "00000000-0113-0001-0000-000000000001",
+      "ownerDepartmentId": "00000000-0113-0001-0000-000000000001",
+      "status": "ACTIVE",
+      "version": 1,
+      "gitRepoRef": "Repository gitRepoRef configuration (1)",
+      "newCodeHorizonType": "DR-2026-0001",
+      "repoName": "Repository #1 — Enterprise Primary Record",
+      "providerType": "Repository providerType configuration (1)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0005-0000-000000000002",
+      "slug": "DR-2026-0002",
+      "name": "Repository #2 — Enterprise Operations Record",
+      "description": "Repository description configuration (2)",
+      "visibility": "Repository visibility configuration (2)",
+      "defaultBranch": "Repository defaultBranch configuration (2)",
+      "isTemplate": true,
+      "templateRepoId": "00000000-0113-0001-0000-000000000002",
+      "allowedMergeStrategies": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "enableMergeQueue": true,
+      "secretPushProtection": true,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (2)",
+      "storageUsedMb": 20,
+      "apmProjectId": "00000000-0113-0001-0000-000000000002",
+      "ownerDepartmentId": "00000000-0113-0001-0000-000000000002",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "gitRepoRef": "Repository gitRepoRef configuration (2)",
+      "newCodeHorizonType": "DR-2026-0002",
+      "repoName": "Repository #2 — Enterprise Operations Record",
+      "providerType": "Repository providerType configuration (2)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0005-0000-000000000003",
+      "slug": "DR-2026-0003",
+      "name": "Repository #3 — Enterprise Compliance Record",
+      "description": "Repository description configuration (3)",
+      "visibility": "Repository visibility configuration (3)",
+      "defaultBranch": "Repository defaultBranch configuration (3)",
+      "isTemplate": false,
+      "templateRepoId": "00000000-0113-0001-0000-000000000003",
+      "allowedMergeStrategies": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "enableMergeQueue": false,
+      "secretPushProtection": false,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (3)",
+      "storageUsedMb": 30,
+      "apmProjectId": "00000000-0113-0001-0000-000000000003",
+      "ownerDepartmentId": "00000000-0113-0001-0000-000000000003",
+      "status": "COMPLETED",
+      "version": 3,
+      "gitRepoRef": "Repository gitRepoRef configuration (3)",
+      "newCodeHorizonType": "DR-2026-0003",
+      "repoName": "Repository #3 — Enterprise Compliance Record",
+      "providerType": "Repository providerType configuration (3)",
+      "isDeleted": false
+    }
+  ],
+  "HrEmployee": [
+    {
+      "id": "00000000-0113-0006-0000-000000000001",
+      "employeeNumber": "HE-2026-0001",
+      "firstName": "Employee #1 — Enterprise Primary Record",
+      "lastName": "Employee #1 — Enterprise Primary Record",
+      "preferredName": "Employee #1 — Enterprise Primary Record",
+      "email": "ops-team-1@rapider-enterprise.io",
+      "personalEmail": "ops-team-1@rapider-enterprise.io",
+      "phone": "+1-555-019-2801",
+      "jobTitle": "Employee #1 — Enterprise Primary Record",
+      "status": "ACTIVE",
+      "workerType": "Employee workerType configuration (1)",
+      "employmentType": "Employee employmentType configuration (1)",
+      "hireDate": "2026-11-01T10:00:00Z",
+      "startDate": "2026-11-01T10:00:00Z",
+      "endDate": "2026-11-01T10:00:00Z",
+      "departmentId": "00000000-0113-0001-0000-000000000001",
+      "managerId": "00000000-0113-0001-0000-000000000001",
+      "positionId": "00000000-0113-0001-0000-000000000001",
+      "jobProfileId": "00000000-0113-0001-0000-000000000001",
+      "locationId": "00000000-0113-0001-0000-000000000001",
+      "legalEntityId": "00000000-0113-0001-0000-000000000001",
+      "weeklyHours": 10,
+      "timeZone": "Employee timeZone configuration (1)",
+      "avatarColor": "Employee avatarColor configuration (1)",
+      "notes": "Employee notes configuration (1)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0006-0000-000000000002",
+      "employeeNumber": "HE-2026-0002",
+      "firstName": "Employee #2 — Enterprise Operations Record",
+      "lastName": "Employee #2 — Enterprise Operations Record",
+      "preferredName": "Employee #2 — Enterprise Operations Record",
+      "email": "ops-team-2@rapider-enterprise.io",
+      "personalEmail": "ops-team-2@rapider-enterprise.io",
+      "phone": "+1-555-019-2802",
+      "jobTitle": "Employee #2 — Enterprise Operations Record",
+      "status": "IN_PROGRESS",
+      "workerType": "Employee workerType configuration (2)",
+      "employmentType": "Employee employmentType configuration (2)",
+      "hireDate": "2026-11-02T10:00:00Z",
+      "startDate": "2026-11-02T10:00:00Z",
+      "endDate": "2026-11-02T10:00:00Z",
+      "departmentId": "00000000-0113-0001-0000-000000000002",
+      "managerId": "00000000-0113-0001-0000-000000000002",
+      "positionId": "00000000-0113-0001-0000-000000000002",
+      "jobProfileId": "00000000-0113-0001-0000-000000000002",
+      "locationId": "00000000-0113-0001-0000-000000000002",
+      "legalEntityId": "00000000-0113-0001-0000-000000000002",
+      "weeklyHours": 20,
+      "timeZone": "Employee timeZone configuration (2)",
+      "avatarColor": "Employee avatarColor configuration (2)",
+      "notes": "Employee notes configuration (2)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0006-0000-000000000003",
+      "employeeNumber": "HE-2026-0003",
+      "firstName": "Employee #3 — Enterprise Compliance Record",
+      "lastName": "Employee #3 — Enterprise Compliance Record",
+      "preferredName": "Employee #3 — Enterprise Compliance Record",
+      "email": "ops-team-3@rapider-enterprise.io",
+      "personalEmail": "ops-team-3@rapider-enterprise.io",
+      "phone": "+1-555-019-2803",
+      "jobTitle": "Employee #3 — Enterprise Compliance Record",
+      "status": "COMPLETED",
+      "workerType": "Employee workerType configuration (3)",
+      "employmentType": "Employee employmentType configuration (3)",
+      "hireDate": "2026-11-03T10:00:00Z",
+      "startDate": "2026-11-03T10:00:00Z",
+      "endDate": "2026-11-03T10:00:00Z",
+      "departmentId": "00000000-0113-0001-0000-000000000003",
+      "managerId": "00000000-0113-0001-0000-000000000003",
+      "positionId": "00000000-0113-0001-0000-000000000003",
+      "jobProfileId": "00000000-0113-0001-0000-000000000003",
+      "locationId": "00000000-0113-0001-0000-000000000003",
+      "legalEntityId": "00000000-0113-0001-0000-000000000003",
+      "weeklyHours": 30,
+      "timeZone": "Employee timeZone configuration (3)",
+      "avatarColor": "Employee avatarColor configuration (3)",
+      "notes": "Employee notes configuration (3)",
+      "isDeleted": false
+    }
+  ],
+  "AiaCodingRulePack": [
+    {
+      "id": "00000000-0113-0007-0000-000000000001",
+      "code": "ACRP-2026-0001",
+      "name": "Coding Rule Pack #1 — Enterprise Primary Record",
+      "packType": "Coding Rule Pack packType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0007-0000-000000000002",
+      "code": "ACRP-2026-0002",
+      "name": "Coding Rule Pack #2 — Enterprise Operations Record",
+      "packType": "Coding Rule Pack packType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0007-0000-000000000003",
+      "code": "ACRP-2026-0003",
+      "name": "Coding Rule Pack #3 — Enterprise Compliance Record",
+      "packType": "Coding Rule Pack packType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaCodingSession": [
+    {
+      "id": "00000000-0113-0008-0000-000000000001",
+      "title": "Coding Session #1 — Enterprise Primary Record",
+      "sessionMode": "Coding Session sessionMode configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0008-0000-000000000002",
+      "title": "Coding Session #2 — Enterprise Operations Record",
+      "sessionMode": "Coding Session sessionMode configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0008-0000-000000000003",
+      "title": "Coding Session #3 — Enterprise Compliance Record",
+      "sessionMode": "Coding Session sessionMode configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaCodingTask": [
+    {
+      "id": "00000000-0113-0009-0000-000000000001",
+      "taskNumber": "ACT-2026-0001",
+      "title": "Coding Task #1 — Enterprise Primary Record",
+      "specificationMarkdown": "Coding Task specificationMarkdown configuration (1)",
+      "sourceBranch": "Coding Task sourceBranch configuration (1)",
+      "workingBranch": "Coding Task workingBranch configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0009-0000-000000000002",
+      "taskNumber": "ACT-2026-0002",
+      "title": "Coding Task #2 — Enterprise Operations Record",
+      "specificationMarkdown": "Coding Task specificationMarkdown configuration (2)",
+      "sourceBranch": "Coding Task sourceBranch configuration (2)",
+      "workingBranch": "Coding Task workingBranch configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0009-0000-000000000003",
+      "taskNumber": "ACT-2026-0003",
+      "title": "Coding Task #3 — Enterprise Compliance Record",
+      "specificationMarkdown": "Coding Task specificationMarkdown configuration (3)",
+      "sourceBranch": "Coding Task sourceBranch configuration (3)",
+      "workingBranch": "Coding Task workingBranch configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaCodePatchProposal": [
+    {
+      "id": "00000000-0113-0010-0000-000000000001",
+      "summary": "Code Patch Proposal summary configuration (1)",
+      "filesChangedCount": 10,
+      "linesAdded": 10,
+      "linesDeleted": 10,
+      "unifiedDiffPayload": "Code Patch Proposal unifiedDiffPayload configuration (1)",
+      "hunkStatesJson": {
+        "configured": true,
+        "tier": 1
+      },
+      "securityScanStatus": "Code Patch Proposal securityScanStatus configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0010-0000-000000000002",
+      "summary": "Code Patch Proposal summary configuration (2)",
+      "filesChangedCount": 20,
+      "linesAdded": 20,
+      "linesDeleted": 20,
+      "unifiedDiffPayload": "Code Patch Proposal unifiedDiffPayload configuration (2)",
+      "hunkStatesJson": {
+        "configured": true,
+        "tier": 2
+      },
+      "securityScanStatus": "Code Patch Proposal securityScanStatus configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0010-0000-000000000003",
+      "summary": "Code Patch Proposal summary configuration (3)",
+      "filesChangedCount": 30,
+      "linesAdded": 30,
+      "linesDeleted": 30,
+      "unifiedDiffPayload": "Code Patch Proposal unifiedDiffPayload configuration (3)",
+      "hunkStatesJson": {
+        "configured": true,
+        "tier": 3
+      },
+      "securityScanStatus": "Code Patch Proposal securityScanStatus configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaPrReviewRun": [
+    {
+      "id": "00000000-0113-0011-0000-000000000001",
+      "externalPrId": "00000000-0113-0001-0000-000000000001",
+      "prTitle": "Pr Review Run #1 — Enterprise Primary Record",
+      "prAuthorHandle": "Pr Review Run prAuthorHandle configuration (1)",
+      "headCommitSha": "Pr Review Run headCommitSha configuration (1)",
+      "baseBranch": "Pr Review Run baseBranch configuration (1)",
+      "reviewStatus": "Pr Review Run reviewStatus configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0011-0000-000000000002",
+      "externalPrId": "00000000-0113-0001-0000-000000000002",
+      "prTitle": "Pr Review Run #2 — Enterprise Operations Record",
+      "prAuthorHandle": "Pr Review Run prAuthorHandle configuration (2)",
+      "headCommitSha": "Pr Review Run headCommitSha configuration (2)",
+      "baseBranch": "Pr Review Run baseBranch configuration (2)",
+      "reviewStatus": "Pr Review Run reviewStatus configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0011-0000-000000000003",
+      "externalPrId": "00000000-0113-0001-0000-000000000003",
+      "prTitle": "Pr Review Run #3 — Enterprise Compliance Record",
+      "prAuthorHandle": "Pr Review Run prAuthorHandle configuration (3)",
+      "headCommitSha": "Pr Review Run headCommitSha configuration (3)",
+      "baseBranch": "Pr Review Run baseBranch configuration (3)",
+      "reviewStatus": "Pr Review Run reviewStatus configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaReviewFinding": [
+    {
+      "id": "00000000-0113-0012-0000-000000000001",
+      "category": "Review Finding category configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0012-0000-000000000002",
+      "category": "Review Finding category configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0012-0000-000000000003",
+      "category": "Review Finding category configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaCodingPolicy": [
+    {
+      "id": "00000000-0113-0013-0000-000000000001",
+      "policyName": "Coding Policy #1 — Enterprise Primary Record",
+      "allowedModelKeys": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "enforceZeroDataRetention": true,
+      "blockPublicCodeMatches": true,
+      "protectedPathGlobs": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "monthlySeatCapAmount": 1250,
+      "monthlyWorkspaceCapAmount": 1250,
+      "currencyCode": "ACP-2026-0001",
+      "maxSandboxMinutesPerTask": 10,
+      "securityEscalationPhone": "+1-555-019-2801",
+      "isDefault": true,
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0013-0000-000000000002",
+      "policyName": "Coding Policy #2 — Enterprise Operations Record",
+      "allowedModelKeys": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "enforceZeroDataRetention": true,
+      "blockPublicCodeMatches": true,
+      "protectedPathGlobs": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "monthlySeatCapAmount": 2500,
+      "monthlyWorkspaceCapAmount": 2500,
+      "currencyCode": "ACP-2026-0002",
+      "maxSandboxMinutesPerTask": 20,
+      "securityEscalationPhone": "+1-555-019-2802",
+      "isDefault": true,
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0013-0000-000000000003",
+      "policyName": "Coding Policy #3 — Enterprise Compliance Record",
+      "allowedModelKeys": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "enforceZeroDataRetention": false,
+      "blockPublicCodeMatches": false,
+      "protectedPathGlobs": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "monthlySeatCapAmount": 3750,
+      "monthlyWorkspaceCapAmount": 3750,
+      "currencyCode": "ACP-2026-0003",
+      "maxSandboxMinutesPerTask": 30,
+      "securityEscalationPhone": "+1-555-019-2803",
+      "isDefault": false,
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "AiaUsageLedgerEntry": [
+    {
+      "id": "00000000-0113-0014-0000-000000000001",
+      "recordedAt": "2026-11-01T10:00:00Z",
+      "operationType": "Usage Ledger Entry operationType configuration (1)",
+      "meterType": "Usage Ledger Entry meterType configuration (1)",
+      "chargeCategory": "Usage Ledger Entry chargeCategory configuration (1)",
+      "pagesProcessed": 10,
+      "vlmTokensUsed": 10,
+      "unitRatePerPage": 85,
+      "costAmount": 1250,
+      "currencyCode": "AULE-2026-0001",
+      "correlationId": "00000000-0113-0001-0000-000000000001",
+      "audioMinutesBilled": 10,
+      "llmTokensUsed": 10,
+      "ledgerEntryNo": "Usage Ledger Entry ledgerEntryNo configuration (1)",
+      "usageKind": "Usage Ledger Entry usageKind configuration (1)",
+      "usageType": "Usage Ledger Entry usageType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0014-0000-000000000002",
+      "recordedAt": "2026-11-02T10:00:00Z",
+      "operationType": "Usage Ledger Entry operationType configuration (2)",
+      "meterType": "Usage Ledger Entry meterType configuration (2)",
+      "chargeCategory": "Usage Ledger Entry chargeCategory configuration (2)",
+      "pagesProcessed": 20,
+      "vlmTokensUsed": 20,
+      "unitRatePerPage": 90,
+      "costAmount": 2500,
+      "currencyCode": "AULE-2026-0002",
+      "correlationId": "00000000-0113-0001-0000-000000000002",
+      "audioMinutesBilled": 20,
+      "llmTokensUsed": 20,
+      "ledgerEntryNo": "Usage Ledger Entry ledgerEntryNo configuration (2)",
+      "usageKind": "Usage Ledger Entry usageKind configuration (2)",
+      "usageType": "Usage Ledger Entry usageType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0113-0014-0000-000000000003",
+      "recordedAt": "2026-11-03T10:00:00Z",
+      "operationType": "Usage Ledger Entry operationType configuration (3)",
+      "meterType": "Usage Ledger Entry meterType configuration (3)",
+      "chargeCategory": "Usage Ledger Entry chargeCategory configuration (3)",
+      "pagesProcessed": 30,
+      "vlmTokensUsed": 30,
+      "unitRatePerPage": 95,
+      "costAmount": 3750,
+      "currencyCode": "AULE-2026-0003",
+      "correlationId": "00000000-0113-0001-0000-000000000003",
+      "audioMinutesBilled": 30,
+      "llmTokensUsed": 30,
+      "ledgerEntryNo": "Usage Ledger Entry ledgerEntryNo configuration (3)",
+      "usageKind": "Usage Ledger Entry usageKind configuration (3)",
+      "usageType": "Usage Ledger Entry usageType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ]
+}
